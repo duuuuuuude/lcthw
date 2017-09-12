@@ -33,7 +33,7 @@ struct Map {
     Object proto;
     Room *start;
     Room *location;
-}
+};
 typedef struct Map Map;
 
 void *Map_move(void *self, Direction direction);
